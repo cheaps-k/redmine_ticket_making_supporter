@@ -1,0 +1,16 @@
+*:focus {
+    outline: none;
+}
+
+::selection {
+    background: #5ab4bd;
+    color: #fff;
+}
+
+body, table {
+    width: 300px;
+    height: auto;
+    font-family: "Meiryo UI";
+    font-size: 12px;
+    user-select: none;
+}
